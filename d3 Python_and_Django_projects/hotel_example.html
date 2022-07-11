@@ -14,19 +14,25 @@
             <label for="inUS">Inside:</label>
             <!-- given a name="LOC" can select either one or the other- not just perm set  -->
             <!-- they are linked because they share the same name -->
-            <input id="inUS" type="radio" name="LOC" value="">
+            <input id="inUS" type="radio" name="LOC" value="inside">
 
             <label for="outUS">Outside:</label>
-            <input id="outUS" type="radio" name="LOC" value="">
+            <input id="outUS" type="radio" name="LOC" value="outside">
 
             <h3>how was your service?</h3>
             <!-- drop down menu with the select tag -->
             <select class="" name="stars">
-                <option value="Great">3 - Great</option>
-                <option value="Okay">2 - Okay</option>
-                <option value="Bad">1 - Bad</option>
+                <option value="3">3 - Great</option>
+                <option value="2">2 - Okay</option>
+                <option value="1">1 - Bad</option>
             </select>
+            <input type="submit" name="" value="Submit">
+            <!-- hotel_example.html?LOC=inside&stars=Bad -->
 
+            <h3>Any other feedback:</h3>
+            <input type="text" name="" value="">
+            <input type="submit" name="" value="Submit">
+            
         </form>
     </body>
 </html>

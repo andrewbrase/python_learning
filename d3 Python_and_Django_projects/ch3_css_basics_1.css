@@ -2,3 +2,15 @@
 /* while you can define styling within the html file itself, it is much more common 
 (and better) to create a seperate .css file and then link it to the html file  */
 
+/* format for css */
+/* selected tag{
+    property: value;
+} */
+
+h1{
+    color:green;
+}
+
+li{
+    color:rgb(0, 255, 153);
+}

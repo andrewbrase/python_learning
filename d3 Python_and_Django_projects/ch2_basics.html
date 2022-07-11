@@ -131,13 +131,47 @@
         <br>
         <h1>how to activate actions upon clicking submit:</h1>
 
-        <form>
-            Email : <input type="email" name="emaildata" value="">
-            <input type="submit" name="submitem" value="Submit">
+        <form action="https://www.youtube.com/" method="get">
+            Enter text and take me to youtube: <input type="text" name="userinput" value="">
+            <input type="submit" name="" value="Submit">
         </form>
         <!-- URL has changed to : file:///C:/Users/brasea/Desktop/Workspace/python_learning/d3%20Python_and_Django_projects/ch2_basics.html?emaildata=andrew%40yahoo.com&submitem=Submit -->
         <!-- emaildata=andrew%40yahoo.com&submitem=Submit -->
         <!-- this part includes the input that was entered %40 is code for @ -->
+
+        <!-- how to use label tags individually for each inmput -->
+        <!-- technically bad way of doing this: -->
+        <h1>how to use label tags individually for each inmput</h1>
+        <br>
+        <form>
+            <label>
+                Enter text:
+                <input type="text" name="" value="block one">
+            </label>
+            <lable>
+                Enter text:
+                <input type="text" name="" value="block two">
+            </lable>
+            <!-- you don't want to have to repeat yourself calling label tags over and over -->
+            <!-- thats where the for parameter comes into play -->
+            
+            <h1>how to use the for parameter</h1>
+            <!-- how to use the for parameter -->
+            <form>
+                <label for="userinput">Enter input:</label>
+                <input id="userinput" type="text" name="" placeholder="placeholder">
+                <label for="userinput">Enter input:</label>
+                <input id="userinput" type="text" name="" placeholder="placeholder">
+            </form>
+            
+            <h1>required - will say please fill out this field - if nothing is entered</h1>
+            <form>
+                <input type="text" name="" placeholder="not required">
+                <input type="text" name="" placeholder="required" required>
+                <input type="submit" name="" value="Submit">
+            </form>
+
+        </form>
         
     </body>
 </html>

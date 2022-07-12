@@ -1,0 +1,20 @@
+/* specificity and hierarchy */
+
+/* ids */
+/* classes */
+/* general tags */
+
+li{
+    color:red;
+}
+
+/* top items class */
+.topitems{
+    color:blue;
+}
+
+/* anything with the class top items has become blue */
+
+#two{
+    color:green
+}

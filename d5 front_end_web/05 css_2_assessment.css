@@ -1,0 +1,30 @@
+table{
+    margin: auto;
+}
+
+#s1{
+    background-color: rgb(110, 192, 148);
+    width: 20%;
+    padding: 100px;
+    
+}
+
+#s2{
+    background-color: #f58056;
+    
+}
+
+#s3{
+    background-color: #5fc290;
+    
+}
+
+#s4{
+    background-color: #b0e69e;
+    
+}
+
+#s5{
+    background-color: #e8d20e;
+    
+}

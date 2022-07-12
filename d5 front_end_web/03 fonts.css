@@ -1,0 +1,23 @@
+h1{
+    font-family:"Arial" ;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+p{
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+body{
+    font-size: 20px;
+}
+
+/* em is a ratio to the defined 20px */
+#two{
+    font-size: .8em;
+}
+
+/* 1em = 16px
+2em = 32px */

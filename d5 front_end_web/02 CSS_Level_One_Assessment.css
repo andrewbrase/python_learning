@@ -37,7 +37,7 @@ Give a light yellow background to all <p> elements inside of a <div> element
 Use HEX for the color*/
 
 div p{
-    color:#e0e677
+    background-color:#e0e677
 }
 
 /*Task # 6
@@ -45,23 +45,32 @@ There is a textarea element with the id=textblock, give it the following propert
 * A 5px solid gray border
 * A width of 800px and a height of 400px
  */
-
+#textblock{
+    border: 5px solid gray
+}
 
 
 /*Task # 7
 There is a link to Google on the page. Make this link red.*/
-
+li a[href="http://www.google.com"]{
+    color:red
+}
 
 
 /*Task # 8
 Make elements with the id="itemone" have an overline text-decoration.
 and be the color purple.*/
-
+#itemone{
+    text-decoration: overline;
+}
 
 /*Task # 9
 Finally, make the elements with the class label "exit" have
 a background of blue and a 4px dashed yellow border.*/
-
+#exit{
+    background-color: blue;
+    border: 4px dashed yellow;
+}
 
 
 /*BONUS CHALLENGE: Task 10

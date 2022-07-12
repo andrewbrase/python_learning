@@ -13,23 +13,32 @@ body{
 
 /*Task # 2
 Change the h1 to have a 1px solid black border*/
-
+h1{
+    border: 1px solid black;
+}
 
 
 /*Task # 3
 Make all h2 elements the color purple*/
-
+h2{
+    color: purple;
+}
 
 
 /*Task # 4
 Make all input boxes have a 2px solid dark red border (use rgb for this)*/
 
+input{
+    border: 2px solid rgb(135, 7, 7);
+}
 
 /*Task # 5
 Give a light yellow background to all <p> elements inside of a <div> element
 Use HEX for the color*/
 
-
+div p{
+    color:#e0e677
+}
 
 /*Task # 6
 There is a textarea element with the id=textblock, give it the following properties:

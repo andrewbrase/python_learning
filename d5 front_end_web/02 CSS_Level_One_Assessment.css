@@ -62,12 +62,13 @@ Make elements with the id="itemone" have an overline text-decoration.
 and be the color purple.*/
 #itemone{
     text-decoration: overline;
+    color: purple;
 }
 
 /*Task # 9
 Finally, make the elements with the class label "exit" have
 a background of blue and a 4px dashed yellow border.*/
-#exit{
+.exit{
     background-color: blue;
     border: 4px dashed yellow;
 }

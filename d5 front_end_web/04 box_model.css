@@ -25,4 +25,7 @@
 
     /* padding makes space between the content itself and the border */
     padding: 50px;
+
+    /* alligns text within border to the center */
+    text-align: center;
 }

@@ -7,7 +7,7 @@ Watch the video lecture for more info on this! */
 /*Task # 1
 Give the body element of the site a light blue background using HEX code*/
 body{
-    background-color:#aef5f4
+    background-color:#aef5f4;
 }
 
 
@@ -37,7 +37,7 @@ Give a light yellow background to all <p> elements inside of a <div> element
 Use HEX for the color*/
 
 div p{
-    background-color:#e0e677
+    background-color:#e0e677;
 }
 
 /*Task # 6
@@ -46,14 +46,14 @@ There is a textarea element with the id=textblock, give it the following propert
 * A width of 800px and a height of 400px
  */
 #textblock{
-    border: 5px solid gray
+    border: 5px solid gray;
 }
 
 
 /*Task # 7
 There is a link to Google on the page. Make this link red.*/
 li a[href="http://www.google.com"]{
-    color:red
+    color:red;
 }
 
 

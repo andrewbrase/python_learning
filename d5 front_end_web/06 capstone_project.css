@@ -2,27 +2,28 @@
     font-family: 'Press Start 2P', cursive; 
 }
 
+select{
+    height: 30px;
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+}
+
+option{
+    background-color: rgb(228, 228, 228);
+}
+
 .tableset{
     margin: auto;
 }
 
-select{
-    height: 30px;
+/* log in and sign up */
+.alignright{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
 }
 
 html{
     border: 30px solid green;
-}
-
-input{
-    height: 30px;
-}
-
-/* the position doesn't seem right? why negative values */
-.alignright{
-    font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
-    position: relative; right:-1100px; top:-50px;
 }
 
 a:visited, a:link, a:active
@@ -37,4 +38,8 @@ a:hover{
 
 select:hover{
     color: green;
+}
+
+p{
+    inline-size: 100%;
 }

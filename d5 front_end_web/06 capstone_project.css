@@ -61,3 +61,9 @@ input{
   left: 48px;
   width: 250px;
 }
+
+.liz{
+    width:10%; height:10%;
+    float:right;
+    margin-right: 10px;
+}

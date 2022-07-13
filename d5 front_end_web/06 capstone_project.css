@@ -48,10 +48,16 @@ input{
     /* background-color: rgb(184, 240, 240); */
     display:flex;
     position: relative;
-    left: 20px;
+    left: 10px;
     width: 30%;
 }
 
 .loginshort{
-    width: 90%;
+    width: 250px;
+}
+
+.emailpso{
+  position: relative;
+  left: 48px;
+  width: 250px;
 }

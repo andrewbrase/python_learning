@@ -107,7 +107,7 @@ input{
   /* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(58, 58, 58);
     font-family: Arial;
   }
   
@@ -173,3 +173,4 @@ input{
   .dropdown:hover .dropdown-content {
     display: block;
   }
+

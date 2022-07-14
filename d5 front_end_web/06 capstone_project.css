@@ -20,7 +20,7 @@ hr{
 
 /* log in and sign up */
 .align{
-    font-size: 10px;
+    font-size: 15px;
 }
 
 html{
@@ -64,14 +64,10 @@ input{
 }
 
 .liz{
-    width:10%; height:10%;
+    width:70px; height:60px;
     float:right;
     margin-right: 10px;
-}
-
-.submbut{
-    background-color: rgb(105, 201, 105);
-    border-radius: 25px;
+    position: relative; top: -10px;
 }
 
 /*  */

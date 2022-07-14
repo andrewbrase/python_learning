@@ -14,18 +14,8 @@ hr{
     background-color: rgb(124, 202, 124);
 }
 
-.tableset{
-    margin: auto;
-}
-
-/* log in and sign up */
-.align{
-    font-size: 10px;
-}
-
 html{
     border: 30px solid green;
-    font-family: 'Press Start 2P', cursive;
 }
 
 a:visited, a:link, a:active
@@ -40,10 +30,6 @@ a:hover{
 
 select:hover{
     color: green;
-}
-
-input{
-    font-family: 'Press Start 2P', cursive;
 }
 
 .logininfo{
@@ -64,7 +50,7 @@ input{
 }
 
 .liz{
-    width:10%; height:10%;
+    width:60px; height:50px;
     float:right;
     margin-right: 10px;
 }
@@ -73,3 +59,54 @@ input{
     background-color: rgb(105, 201, 105);
     border-radius: 25px;
 }
+
+.ps2p{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.tableset{
+    margin: auto;
+}
+
+/* log in and sign up */
+.align{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 60%;
+    width:10%; height:10%;
+    float:right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+/*  */
+/*  */
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    font-family: 'Press Start 2P', cursive;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: green;
+    color: white;
+  }

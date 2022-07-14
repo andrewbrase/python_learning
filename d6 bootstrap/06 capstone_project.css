@@ -1,0 +1,75 @@
+select{
+    height: 30px;
+    width: 100%;
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(207, 232, 207);
+}
+
+option{
+    background-color: rgb(228, 228, 228);
+}
+
+hr{
+    height: 1px;
+    background-color: rgb(124, 202, 124);
+}
+
+.tableset{
+    margin: auto;
+}
+
+/* log in and sign up */
+.align{
+    font-size: 10px;
+}
+
+html{
+    border: 30px solid green;
+    font-family: 'Press Start 2P', cursive;
+}
+
+a:visited, a:link, a:active
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(4, 40, 4);
+}
+
+select:hover{
+    color: green;
+}
+
+input{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.logininfo{
+    display:flex;
+    position: relative;
+    left: 10px;
+    width: 30%;
+}
+
+.loginshort{
+    width: 250px;
+}
+
+.emailpso{
+  position: relative;
+  left: 48px;
+  width: 250px;
+}
+
+.liz{
+    width:10%; height:10%;
+    float:right;
+    margin-right: 10px;
+}
+
+.submbut{
+    background-color: rgb(105, 201, 105);
+    border-radius: 25px;
+}

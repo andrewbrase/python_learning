@@ -2,6 +2,7 @@ select{
     height: 30px;
     width: 100%;
     font-family: 'Press Start 2P', cursive;
+    background-color: rgb(207, 232, 207);
 }
 
 option{
@@ -29,15 +30,11 @@ a:visited, a:link, a:active
 }
 
 a:hover{
-    color: green;
+    color: rgb(4, 40, 4);
 }
 
 select:hover{
     color: green;
-}
-
-p{
-    inline-size: 100%;
 }
 
 input{
@@ -45,7 +42,6 @@ input{
 }
 
 .logininfo{
-    /* background-color: rgb(184, 240, 240); */
     display:flex;
     position: relative;
     left: 10px;
@@ -68,6 +64,7 @@ input{
     margin-right: 10px;
 }
 
-/* .submbut{
+.submbut{
     background-color: rgb(105, 201, 105);
-} */
+    border-radius: 25px;
+}
